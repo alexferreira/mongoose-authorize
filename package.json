@@ -30,7 +30,8 @@
     "mongoose": "3.8.*"
   },
   "dependencies": {
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "mongoose": "^3.8.14"
   },
   "devDependencies": {
     "mocha": "^1.21.3",
