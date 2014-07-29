@@ -1,0 +1,39 @@
+{
+  "name": "mongoose-authorize",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Alex Ferreira <alex@dsol.com.br>",
+  "homepage": "https://github.com/alexferreira/mongoose-authorize",
+  "bugs": {
+    "url": "https://github.com/alexferreira/mongoose-authorize/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec -r should"
+  },
+  "repository": {
+    "url": "https://github.com/alexferreira/mongoose-authorize"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "node",
+    "authorization",
+    "access",
+    "control",
+    "mongoose",
+    "acl"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "mongoose": "3.8.*"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "should": "^4.0.4"
+  }
+}
